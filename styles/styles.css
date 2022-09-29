@@ -1,1 +1,119 @@
 
+
+
+@media only screen and (min-width: 600px) {
+    #main-div{
+        width: 1000px;
+        height: 1000px;
+        background-color:red;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #bovenkant-main-div{
+        width: 1000px;
+        height: 300px;
+        background: yellow;
+        text-align: center;
+    }
+
+    H1{
+        color: darkgreen;
+        font-family: comic sans ms;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    H3{
+        font-family: 'verdana';
+    }
+
+    #onderkant-main-div{
+        width: 1000px;
+        background: aqua;
+    }
+
+    .planten-icoon-en-naam-div{
+        background-color: darkgreen;
+        color: white;
+        font-family: comic sans ms;
+        width: 200px;
+        margin: 25px;
+        text-align: center;
+    }
+
+         .huisplant-foto{
+            width: 200px;
+            height: 300px;
+        }
+
+        img{
+            width: 200px;
+            height: 300px;
+        }
+
+        .huisplant-foto-info{
+            visibility: hidden;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);  
+            font-family: 'Montserrat';
+            font-weight: bold;
+            background-color:red;
+            color:black;
+            width: 200px;
+            height: 300px;
+        }
+
+        .huisplant-foto:hover .huisplant-foto-info{
+            visibility: visible;
+            opacity: 1;
+        }
+}
+
+
+@media only screen and (max-width: 600px) {   
+    #main-div{
+        width: 600px;
+        height: 1000px;
+        background-color:red;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #bovenkant-main-div{
+        width: 600;
+        height: 300px;
+        background: yellow;
+        text-align: center;
+    }
+
+    H1{
+        color: darkgreen;
+        font-family: comic sans ms;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    H3{
+        font-family: 'verdana';
+    }
+
+    #onderkant-main-div{
+            width: 600px;
+            background: aqua;
+    }
+
+    .planten-icoon-en-naam-div{
+        background-color: darkgreen;
+        color: white;
+        font-family: comic sans ms;
+        width: 200 px;
+        margin: 25px
+    }
+
+    .huisplant-foto{
+        width: 200px;
+        height: 450px;
+    }
+}
