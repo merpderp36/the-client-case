@@ -31,7 +31,7 @@
     #onderkant-main-div{
         width: 1000px;
         background: aqua;
-        float: left;
+
     }
 
     .planten-icoon-en-naam-div{
@@ -41,7 +41,7 @@
         width: 200px;
         margin: 25px;
         text-align: center;
-
+        float: left;
         position:relative;
     }
 
