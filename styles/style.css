@@ -1,0 +1,84 @@
+.planten-div-1{
+    background: orange;
+    width: 400px;
+    height: 800px;
+    justify-self: center;
+    grid-area: planten-div-1;
+}
+
+.planten-div-2{
+    background: orange;
+    width: 400px;
+    height: 800px;
+    justify-self: center;
+    grid-area: planten-div-2;
+}
+
+.planten-div-3{
+    background: orange;
+    width: 400px;
+    height: 800px;
+    justify-self: center;
+    grid-area: planten-div-3;
+}
+
+.planten-div-4{
+    background: orange;
+    width: 400px;
+    height: 800px;
+    justify-self: center;
+    grid-area: planten-div-4;
+}
+
+.planten-div-5{
+    background: orange;
+    width: 400px;
+    height: 800px;
+    justify-self: center;
+    grid-area: planten-div-5;
+}
+
+.planten-div-6{
+    background: orange;
+    width: 400px;
+    height: 800px;
+    justify-self: center;
+    grid-area: planten-div-6;
+}
+
+.planten-div-7{
+    background: orange;
+    width: 400px;
+    height: 800px;
+    justify-self: center;
+    grid-area: planten-div-7;
+}
+
+.planten-div-8{
+    background: orange;
+    width: 400px;
+    height: 800px;
+    justify-self: center;
+    grid-area: planten-div-8;
+}
+
+.planten-div-9{
+    background: orange;
+    width: 400px;
+    height: 800px;
+    justify-self: center;
+    grid-area: planten-div-9;
+}
+
+.foto-div{
+    width: 400px;
+    height: 550 px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+  }
